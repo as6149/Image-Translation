@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Snaplator: Image Translation</string>
+    <string name="title_home">Home</string>
+    <string name="title_camera">Camera</string>
+    <string name="title_gallery">Gallery</string>
+    <string name="detected">Detected:</string>
+    <string name="translated">Translated Text:</string>
+    <string name="head"> About Snaplator</string>
+    <string name="about">
+        <b>About Snaplator \n \n</b>
+
+        <p>This is an android application that can be used when a user is travelling to a different place where they are not familiar with the language. A user can make use of this application to read sign boards or any other text written in different language. It can understand text in an image without having to type it in on the phone and translate it to a user desired language. The application currently only reads languages like Spanish, German, or languages that contain English alphabets. The mobile device running the application should have Android OS 4.4 or better and it should take quality image for the application to work accurately. The application uses Google’s Mobile Vision API for Optical Character Reading (OCR) and Google’s Translate API for language translation. The application was created by using Android Studio, Java, XML and JSON. \n \n </p>
+
+        <b>Instructions \n \n</b>
+        <p>It is easy to use Snaplator. To use this application as mention, user will have to take a picture or select an image from the gallery. The user will then have to tap the process button after capturing or selecting in order for Snaplator to recognize and translate the text contained in the image.
+</p>
+    </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.abhishek.myapplication.CameraFragment">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.abhishek.snapfinal.MainActivity">
+
+        <ImageView
+            android:layout_width="500dp"
+            android:layout_height="400dp"
+            android:id="@+id/image_view"
+            android:layout_marginTop="86dp"
+            android:layout_below="@+id/textView_result"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:layout_gravity="center_horizontal"
+            android:text="Process"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_process"/>
+
+
+        <TextView
+            android:id="@+id/textView_result"
+            android:text="@string/translated"
+            android:gravity="center_horizontal"
+            android:textSize="24sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/spinner"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="9dp" />
+
+        <Button
+            android:id="@+id/button_camera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/button_process"
+            android:text="Take Picture"
+            android:layout_alignParentEnd="true" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/button_camera"
+            android:layout_alignParentEnd="true"
+            >
+            </Spinner>
+
+        <TextView
+            android:id="@+id/textView_detect"
+            android:gravity="center_horizontal"
+            android:textSize="24sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/detected"
+            android:layout_below="@+id/textView_result"
+            android:layout_alignParentStart="true" />
+
+
+    </RelativeLayout>
+
+</FrameLayout>

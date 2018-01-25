@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="destination">
+        <item>en</item>
+        <item>ne</item>
+        <item>zh</item>
+        <item>es</item>
+    </string-array>
+
+</resources>
